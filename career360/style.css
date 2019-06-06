@@ -1,0 +1,39 @@
+body{
+    margin:0;
+    padding:0;
+    background:white;
+    font-family:sans-serif;
+}
+.container
+{
+    width: 1280px;
+    min-height:500px;
+  
+    margin: 70px auto 0 ;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.container .box
+{
+   position: relative;
+   width: 300px;
+   height:300px;
+   background: #ff0;
+   margin:10px;
+   box-sizing: border-box;
+   display: inline-block;
+}
+.dropdown-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+}
+.dropdown-content div{
+    margin-left: 20px;
+    
+}
+.down select{
+    margin-bottom: 30px;
+    
+}
